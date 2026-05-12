@@ -1,0 +1,27 @@
+# gitignore para projeto HTML e CSS
+# Ignora arquivos de sistema, editores e caches
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.log
+
+# Arquivos de build ou dependências (se usados)
+node_modules/
+.dist/
+.build/
+
+# Cache e arquivos temporários
+*.tmp
+*.temp
+*~
+
+# Arquivos específicos de FTP / upload
+*.ftpconfig
